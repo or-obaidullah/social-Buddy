@@ -1,0 +1,79 @@
+.userCard{
+    padding-bottom: 10px;
+    
+    
+}
+.makeStyles-root-6{
+    position: relative;
+}
+.border::before{
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid lightgray;
+    width: 450px;
+    top: 0;
+}
+.border::after{
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid lightgray;
+    width: 450px;
+    bottom: 0;
+    left: 8px;
+}
+.MuiCardActions-root{
+    justify-content: space-between;
+    position: relative;
+}
+.MuiCardActions-root .MuiIconButton-root{
+    border-radius: 5%;
+    padding: 6px 50px;
+    font-size: 1.2rem;
+}
+.MuiCardActions-root .MuiSvgIcon-root{
+    height: 22px;
+}
+.see-more{
+    border: none;
+    background: transparent;
+    color: blue;
+    font-size: 17px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Comment Section */
+.comment-section{
+    display: flex;
+    max-width: 370px;
+}
+.comment-section img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.comment-body{
+    background: #d3d3d361;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.comment-body a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.comment-body a:hover{
+    text-decoration: underline;
+}
+.comment-body p{
+    margin: 0;
+    color: black;
+}
+
+.MuiIconButton-label a{
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}

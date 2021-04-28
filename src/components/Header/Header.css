@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px lightgrey;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    top: 0;
+}
+.navIcon .icon{
+    font-size: 30px;
+    color: #333;
+    z-index: 9999;
+    margin-top: 5px;
+    padding: 10px 40px;
+
+}
+.navIcon .icon:hover{
+    background: rgba(233, 232, 232, 0.678);
+    border-radius: 10px;
+}
